@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Certamen2</string>
+    <string name="edittext">Usuario</string>
+    <string name="boton">Buscar</string>
+</resources>
