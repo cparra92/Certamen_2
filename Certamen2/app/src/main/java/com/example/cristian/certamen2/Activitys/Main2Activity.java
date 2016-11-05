@@ -1,12 +1,12 @@
-package com.example.cristian.certamen2;
+package com.example.cristian.certamen2.Activitys;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.app.Activity;
-import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.cristian.certamen2.R;
 
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {

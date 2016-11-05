@@ -1,23 +1,18 @@
 package com.example.cristian.certamen2.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 
-import com.example.cristian.certamen2.ItemClickListener;
+import com.example.cristian.certamen2.Views.ItemClickListener;
 import com.example.cristian.certamen2.Models.Lista;
 import com.example.cristian.certamen2.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by cristian on 16-10-2016.

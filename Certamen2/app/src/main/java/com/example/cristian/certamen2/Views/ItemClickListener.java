@@ -1,4 +1,4 @@
-package com.example.cristian.certamen2;
+package com.example.cristian.certamen2.Views;
 
 /**
  * Created by cristian on 02-11-2016.

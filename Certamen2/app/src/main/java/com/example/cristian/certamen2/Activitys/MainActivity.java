@@ -1,4 +1,4 @@
-package com.example.cristian.certamen2;
+package com.example.cristian.certamen2.Activitys;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,7 +8,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
@@ -18,6 +17,8 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.cristian.certamen2.Adapters.ListaAdapter;
 import com.example.cristian.certamen2.Models.Lista;
+import com.example.cristian.certamen2.R;
+import com.example.cristian.certamen2.Views.ItemClickListener;
 import com.example.cristian.certamen2.Views.MainView;
 
 import org.json.JSONArray;
@@ -25,10 +26,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements MainView,
-ItemClickListener{
+        ItemClickListener {
 
 
     TextView texto;
@@ -160,6 +160,7 @@ ItemClickListener{
                                         refreshDataset();
                                 }
                             }
+
                         }
 
                     }
